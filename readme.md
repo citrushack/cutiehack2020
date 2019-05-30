@@ -1,5 +1,1 @@
----
-permalink: /index.html
----
-
-
+codejeet.github.io
