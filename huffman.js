@@ -12,8 +12,8 @@ function startCompress(){
     for(let i = 0; i < h.convertedTable.length; i++){
         input = input.replaceAll(Object.keys(h.convertedTable[i]), (h.convertedTable[i][Object.keys(h.convertedTable[i])]));
         //console.log(bruh);
-        console.log(Object.keys(h.convertedTable[i]));
-        console.log((h.convertedTable[i][Object.keys(h.convertedTable[i])]));
+        //console.log(Object.keys(h.convertedTable[i]));
+        //console.log((h.convertedTable[i][Object.keys(h.convertedTable[i])]));
     }
 
     document.getElementById("compbin").value = input;
@@ -108,8 +108,9 @@ class Huffman {
     //asapted from pseudocode: https://riptutorial.com/algorithm/example/23995/huffman-coding
     convert(){
         let queue = [];
-        let feqsSorted = Object.keys(this.freqs).sort((a,b) => this.freqs[a]-this.freqs[b]).reverse();
-         
+        //sort frequences in decending order
+        let feqsSorted = Object.keys(this.freqs).sort((a,b) => this.freqs[b]-this.freqs[a]);
+        
         console.log(feqsSorted);
 
         for(let idx in feqsSorted){
