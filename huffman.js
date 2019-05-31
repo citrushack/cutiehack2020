@@ -67,7 +67,7 @@ function convertAscii() {
         input = input.slice(1);
         i++
     }
-
+    i++;
     info += i;
     info += " bytes, or ";
     info += i * 8 ;
@@ -122,8 +122,8 @@ class Huffman {
         console.log(queue);
         while(queue.length != 1){
             z = new Node();
-            z.left = queue.shift();
-            z.right = queue.shift();
+            z.left = queue.shift(); //z.left = " "
+            z.right = queue.shift(); //z.right = "e"
             z.freq = z.left.freq + z.right.freq;
             queue.push(z);
         }
