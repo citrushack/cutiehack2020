@@ -33,7 +33,8 @@ On the same settings tab, scroll down to "Custom domain", and input the domain y
 
 git clone repository_name
 
-# Should create a folder with the same title of your repository. Move to this directory, and move your html file here.
+# Should create a folder with the same title of your repository.
+Move to this directory, and move your html file here.
 
 cd repository_name
 
