@@ -1,6 +1,7 @@
 http://codejeet.github.io/
+http://ajeet.codes/
 
-# How to get setup on Github Pages
+# How to get set up on Github Pages
 
 ## Prerequisite: have git and know how to use it
 
