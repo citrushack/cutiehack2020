@@ -30,10 +30,13 @@ On the same settings tab, scroll down to "Custom domain", and input the domain y
 ```
 # Clone your repository to your local machine
 
-git clone repository_URL
+git clone repository_name
 
-# Should create a folder with the same title of your repository. Move your html file here.
-# If you want it to be visible at the root, name it index.html 
+# Should create a folder with the same title of your repository. Move to this directory, and move your html file here.
+
+cd repository_name
+
+# If you want the page to be visible at the root, name it index.html 
 # Now, we tell git to track this new html file
 
 git add index.html
