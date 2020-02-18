@@ -15,7 +15,7 @@ If you're on mac/linux, you probably already have git installed. If you don't, c
 
 ## Step one: make a repository on Github
 
-Log in, click the plus on the top right, and make a new repository. For clarity, you should name it the name of the domain that you're hosting it on.
+Log in, click the plus on the top right, and make a new repository. *You should name it the name of the domain that you're hosting it on, eg [your username].github.io*
 
 ## Step two: enable Github Pages
 
