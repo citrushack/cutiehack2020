@@ -4,8 +4,10 @@ Today, we'll improve your personal website project by showing you how to add
 
 1. Multiple pages and a cool nav bar
 2. A contact page with a form that emails you 
-3. Adding cool fonts
-4. Basic mobile responsiveness
+3. Cool fonts
+4. A header tag with info like a site icon
+5. Basic mobile responsiveness
+
 
 ## 1 - Adding a nav bar, linking other pages
 
