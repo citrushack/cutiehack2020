@@ -64,6 +64,16 @@ It's that easy!
 </head>
 ```
 
+## Add a favicon and other cool meta tags
+
+```
+<link rel="icon" type="image/png" href="images/favicon.png">
+<meta charset="utf-8">
+<title>Github pages</title>
+<meta name="description" content="">
+<meta name="author" content="">
+```
+
 ## Basic mobile responsiveness
 
 In CSS, the media query standard allows us to apply specific CSS rules at different screen sizes. Try to load up your website on your phone, and think about how you can use media queries to improve the usability. 
