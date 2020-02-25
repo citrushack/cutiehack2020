@@ -55,7 +55,7 @@ It's that easy!
 
 ## Basic mobile responsiveness
 
-In CSS, the media query standard allows us to apply specific CSS rules at different screen sizes. 
+In CSS, the media query standard allows us to apply specific CSS rules at different screen sizes. Try to load up your website on your phone, and think about how you can use media queries to improve the usability. 
 
 ```
  /* Extra small devices (phones, 600px and down) */
