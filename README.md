@@ -4,7 +4,8 @@ Today, we'll improve your personal website project by showing you how to add
 
 1. Multiple pages and a cool nav bar
 2. A contact page with a form that emails you 
-3. Basic mobile responsiveness
+3. Adding cool fonts
+4. Basic mobile responsiveness
 
 ## 1 - Adding a nav bar, linking other pages
 
@@ -52,6 +53,11 @@ Get creative with the colors and other attributes to make something that reflect
 2. Create a new form with the desired fields and paste the html into your new contact page
 
 It's that easy!
+
+## Adding fonts
+
+1. Head over to [google fonts](https://fonts.google.com/)
+2. Choose a font and grab the <link> tab.
 
 ## Basic mobile responsiveness
 
