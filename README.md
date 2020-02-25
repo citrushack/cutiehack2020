@@ -57,7 +57,12 @@ It's that easy!
 ## Adding fonts
 
 1. Head over to [google fonts](https://fonts.google.com/)
-2. Choose a font and grab the <link> tag.
+2. Choose a font and grab the `<link>` tag, and put it in your header, eg.
+```
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+```
 
 ## Basic mobile responsiveness
 
