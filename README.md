@@ -1,1 +1,65 @@
 # Web Dev Focus Group - Personal Site workshop (cont.)
+
+Today, we'll improve your personal website project by showing you how to add
+
+1. Multiple pages and a cool nav bar
+2. A contact page with a form that emails you 
+3. Basic mobile responsiveness
+
+## 1 - Adding a nav bar, linking other pages
+
+Building a cool nav bar is pretty simple. First, create the pages you want your users to visit. Then, we use an unordered list and use some css rules to remove the bullet points and make it show up horizontally
+
+
+HTML:
+
+```
+ <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul> 
+```
+
+
+CSS:
+
+```
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} 
+```
+
+Get creative with the colors and other attributes to make something that reflects you!
+
+## Adding formspree
+
+1. Make an account at [formspree.io](https://formspree.io/)
+2. Create a new form with the desired fields and paste the html into your new contact page
+
+It's that easy!
+
+## Basic mobile responsiveness
+
+In CSS, the media query standard allows us to apply specific CSS rules at different screen sizes. 
+
+```
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
+```
+
+[source](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
