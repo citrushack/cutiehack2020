@@ -25,12 +25,24 @@ HTML:
 CSS:
 
 ```
- ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-} 
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
 ```
+[source](https://www.w3schools.com/css/css_navbar.asp)
 
 Get creative with the colors and other attributes to make something that reflects you!
 
