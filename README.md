@@ -57,7 +57,7 @@ It's that easy!
 ## Adding fonts
 
 1. Head over to [google fonts](https://fonts.google.com/)
-2. Choose a font and grab the <link> tab.
+2. Choose a font and grab the <link> tag.
 
 ## Basic mobile responsiveness
 
