@@ -1,44 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Github pages</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+<style>
+body { background: black }
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
-<body>
+.cmd {
+  position: relative;
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: calc(1vw + 1.3vh);
+  line-height: calc(1vw + 1.3vh);
+  color: white;
+}
 
 
-<div class="container">
-  <div style="margin-top: 20%" class="row">
-        <div class="twelve columns">
-            <h1>Coming soon...</h1>
-        </div>
-  </div>
- </div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-</html>
+.cmd::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -1.7vw;
+  display: inline-block;
+  background-color: #404040;
+  vertical-align: top;
+  width: 1vw;
+  height:calc(1vw + 1.3vh);
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
 
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+#host{
+  color:LightGreen;
+}
+
+#pwd{
+  color:LightBlue;
+}
+
+#money{
+  color:red;
+}
+
+.flex {
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+<div class="flex">
+<div class="cmd"><span id="host">CutieHack@UCR</span>:<span id="pwd">~/2020/</span><span id="money">$</span> echo "Coming Soon" </div>
+</div>
